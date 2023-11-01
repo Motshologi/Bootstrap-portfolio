@@ -41,8 +41,8 @@
 .overlay{
   height: 100%;
   width: 100%;
-  background: black;
-  opacity: 70%;
+  background: rgb(3, 31, 5);
+  opacity: 60%;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -67,3 +67,15 @@
   color: #fff;
   border-bottom-color: #fff;
 }
+
+header{
+  background: #0a3622;
+  opacity: 90%;
+}
+
+.scrolling{
+  background: #0a3622;
+  opacity: 90%;
+  transition: all 0.5s;
+}
+
